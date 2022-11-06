@@ -16,5 +16,6 @@ int main()
         int bTime = proc->iBurstTime;
         int rTime = proc->iRemainingBurstTime;
         printf("SIMULATOR - CPU %d: [PID = %d, InitialBurstTime = %d, RemainingBurstTime = %d]\n", cpu, pid, bTime, rTime);
+        
     }
 }
